@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+/****************   Nav Section **********************/
+nav {
+  background-color: #27333f;
+  padding: 16px 0;
+  border-bottom: 2px solid #34495e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+  background-color: #34495e;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*********** Splash Page ************************/
+header {
+  background-color: #ecf0f1;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'TASA Orbiter', sans-serif;
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+header img {
+  border: 4px solid #2c3e50;
+  margin: 20px 0;
+}
+
+.address {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #293b3b;
+}
+
+.tagline {
+  font-family: 'TASA Orbiter', sans-serif;
+  color: #3b4747;
+}
+
+/************* Sections ********************/
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 40px 0;
+}
+
+section h3 {
+  font-family: 'TASA Orbiter', sans-serif;
+  color: #576e6e;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'TASA Orbiter', sans-serif;
+  color:#2f3838;
+}
+
+section ul {
+  font-family: 'TASA Orbiter', sans-serif;
+  color:#2f3838;
+}
+
+section a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .three-col {
+      grid-template-columns: 1fr;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
